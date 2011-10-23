@@ -1,4 +1,8 @@
-Extenede magento profiler
-works with magento community 1.6.1.0
+# Exteneded magento profiler
+# works with magento community 1.6.1.0
 
-get from http://inchoo.net/ecommerce/magento/magento-debugging/extending-default-magento-profiler/
+# original - http://inchoo.net/ecommerce/magento/magento-debugging/extending-default-magento-profiler/
+
+# for ignoring this files in git add this lines to .gitignore file
+app/code/local/Mage/Core/Model/Resource.php
+app/code/local/Varien/Profiler.php

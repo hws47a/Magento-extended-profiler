@@ -1,5 +1,6 @@
 # Exteneded magento profiler
 # works with magento community 1.6.1.0
+# doesn't work with magento ee 1.10.0.2
 
 # original - http://inchoo.net/ecommerce/magento/magento-debugging/extending-default-magento-profiler/
 

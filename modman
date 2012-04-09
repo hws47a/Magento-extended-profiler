@@ -1,0 +1,2 @@
+app/code/local/Mage/Core/Model/Resource.php app/code/local/Mage/Core/Model/Resource.php
+app/code/local/Varien/Profiler.php app/code/local/Varien/Profiler.php

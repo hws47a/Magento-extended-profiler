@@ -1,9 +1,12 @@
 # Exteneded magento profiler
-# works with magento community 1.6.1.0
-# doesn't work with magento ee 1.10.0.2
+# works with magento community 1.6+ and magento ee 1.11+
+# works with magento community 1.4-1.6 and magento 1.9-1.10 from branch origin/old-versions
 
 # original - http://inchoo.net/ecommerce/magento/magento-debugging/extending-default-magento-profiler/
 
 # for ignoring this files in git add this lines to .gitignore file
 app/code/local/Mage/Core/Model/Resource.php
 app/code/local/Varien/Profiler.php
+
+# to fast install this debugger you can use modman
+https://github.com/colinmollenhour/modman

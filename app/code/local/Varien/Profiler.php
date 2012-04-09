@@ -158,7 +158,7 @@ class Varien_Profiler
      * @param Zend_Db_Profiler $res
      * @return string
      */
-    public static function getSqlProfiler(Zend_Db_Profiler $res) {
+    public static function getSqlProfiler($res) {
         if(!$res){
             return '';
         }

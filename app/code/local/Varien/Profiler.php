@@ -155,10 +155,10 @@ class Varien_Profiler
      * Output sql
      *
      * @static
-     * @param Zend_Db_Profiler $res
+     * @param Zend_Db_Profiler|Magento_Db_Adapter_Pdo_Mysql $res
      * @return string
      */
-    public static function getSqlProfiler(Zend_Db_Profiler $res) {
+    public static function getSqlProfiler($res) {
         if(!$res){
             return '';
         }
